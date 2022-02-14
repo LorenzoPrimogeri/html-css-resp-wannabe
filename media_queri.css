@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 420px) {
+
+    #lezioni,#why {
+      background-color: hsl(60deg 59% 88%);
+    }
+    #lezioni .row>.left, #lezioni .row>.right {
+      width: 100%;
+     float: none;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+    width: 100%;
+    }
+    .row{
+    width: 100%;
+    }
+  }
