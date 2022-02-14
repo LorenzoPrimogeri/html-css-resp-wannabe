@@ -1,6 +1,5 @@
 
 @media screen and (max-width: 420px) {
-
     #lezioni,#why {
       background-color: hsl(60deg 59% 88%);
     }
@@ -21,5 +20,31 @@
     }
     .row{
     width: 100%;
+    font-size: 25px;
+    }
+    .row h3{
+      font-size: 37px;
+    }
+    .row h1{
+      font-size: 57px;
+    }
+  }
+  @media screen and (max-width:1024px) and (min-width:810px){
+   
+    #lezioni,#why {
+      background-color: lightblue;
+  
+    }
+    /* In questo caso il float rimane perche abbiamo 
+    abbastanza spazio per mettere le cose accanto */
+    .row{
+      width: 100%;
+      font-size: 25px;
+    }
+    .row h3{
+      font-size: 37px;
+    }
+    .row h1{
+      font-size: 57px;
     }
   }
