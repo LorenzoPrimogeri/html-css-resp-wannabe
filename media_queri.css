@@ -29,7 +29,7 @@
       font-size: 57px;
     }
   }
-  @media screen and (max-width:1024px) and (min-width:810px){
+  @media screen  and (min-width:810px) and (max-width:1024px){
    
     #lezioni,#why {
       background-color: lightblue;
